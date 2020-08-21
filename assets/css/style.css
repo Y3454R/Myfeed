@@ -1,0 +1,51 @@
+html, body{
+    font-family: Arial, Helvetica, sans-serif; /*my choice*/
+    /*height: 100%;
+    min-height: 100%;*/
+}
+
+body {
+    line-height: 17px;
+}
+
+.top_bar {
+    width: 100%;
+    min-width: 1050px;
+    height: 48px;
+    background-color: #0054ff36;
+    border-bottom: 0.25em solid #2f3542;
+    margin: 0 0 10px 0; 
+    display: inline-flex; /*bujhi nai */
+}
+
+.logo a{
+    margin-left: 10px;
+    font-size: 38;
+    position: relative;
+    top: 9px;
+    color: #0014ff85;
+}
+
+a:hover {
+    text-decoration: none;
+}
+
+nav {
+    float: right;
+    right: 10px;
+    position: absolute;
+    margin: 10px;
+}
+
+nav a{
+    position: relative;
+    color: #2f3542;
+    text-decoration: none;
+    font-size: 17px;
+    margin-right: 5px; /* my change */
+    margin-left: 5px; /* my change */
+}
+
+nav a:hover {
+    border-bottom: 5px solid #1e90ff;
+}
